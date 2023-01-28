@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "../src/component/Layout/Header/Header";
+import Footer from "../src/component/Layout/Footer/Footer";
+import MenuLeft from "../src/component/Layout/MenuLeft/MenuLeft";
+import MenuAcc from "../src/component/Layout/MenuAcc/MenuAcc";
+import { useLocation } from "react-router-dom";
+import React, { useState } from "react";
 
-function App() {
+function App(props) {
+  let params1 = useLocation();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section className="container">
+        <div className="row">
+          {params1["pathname"].includes("account") ? <MenuAcc /> : <MenuLeft />}
+          {props.children}
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,77 @@
+.table {
+  border: 1px solid #ccc;
+}
+.table_head {
+  background-color: orange;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+// add product
+.form_wrapper-add-product {
+  width: 674px;
+  height: 700px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 160px;
+}
+.Add_title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+.inp {
+  width: 576px;
+}
+.inp_select {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.input_avatar {
+  padding: 0;
+  border-radius: 0px;
+}
+.msg-error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px;
+  left: 51px;
+}
+.input_sale {
+  position: relative;
+  left: -185px;
+  margin-bottom: 30px;
+}
+.percent {
+  position: absolute;
+  left: 275px;
+}
+.image_user {
+  width: 50px;
+}
+.list_image {
+  display: flex;
+}
+.item_image {
+  padding: 0 10px;
+}
+.checkbox {
+  position: relative;
+  bottom: -63px;
+  left: -43px;
+
+  input {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+.form_wrapper {
+  width: 674px;
+  height: 700px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding: 50px 50px 20px 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.form_login {
+  width: 674px;
+  height: 440px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.title_container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 30px 0;
+  text-align: center;
+}
+.input_checked {
+  display: flex;
+  justify-content: center;
+}
+.checked {
+  margin: 0 10px 10px 10px;
+}
+.input_checked input {
+  margin-right: 5px;
+}
+.input_field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.icon {
+  font-size: 24px;
+  color: #000;
+  margin-right: 20px;
+}
+.inp {
+  width: 276px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+  position: relative;
+}
+.options {
+  width: 278px;
+  margin-left: 40px;
+}
+.msg-error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px;
+  left: 174px;
+}
